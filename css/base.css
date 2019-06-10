@@ -1,0 +1,328 @@
+body {
+  background-color: blue;
+  overflow-x: hidden;
+}
+
+.navbar-menu {
+  margin-left: 10px;
+}
+.navbar-menu li {
+  font-size: 14px;
+  margin-left: 20px;
+  margin-right: 40px;
+}
+.navbar-menu li:hover {
+  color: #fff !important;
+}
+.navbar-menu li a {
+  color: #86898E !important;
+}
+.navbar-menu li a:hover {
+  color: #fff !important;
+}
+
+.navbar {
+  padding: 0 !important;
+  height: 60px;
+  background-color: #34373C;
+}
+.navbar .brand-logo {
+  width: 5%;
+  height: 60px;
+  text-align: center;
+  background-color: black;
+}
+.navbar .brand-logo .navbar-brand i {
+  padding-top: 17px;
+  color: #fff;
+  padding-left: 12px;
+}
+.navbar .user {
+  background-color: black;
+  width: 20%;
+  height: 60px;
+}
+.navbar .user .user-info {
+  padding-top: 11px;
+  margin-left: 20px;
+}
+.navbar .user .user-info .user-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.navbar .user .user-info .username {
+  font-size: 18px;
+  font-weight: lighter;
+  color: #86898E !important;
+  background-color: black;
+  border: none;
+}
+
+.container-3 {
+  width: 250px;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+  left: -15px;
+}
+
+.container-3 input#search {
+  width: 250px;
+  height: 35px;
+  background: #404348;
+  border: none;
+  font-size: 10pt;
+  float: left;
+  color: #262626;
+  padding-left: 45px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.container-3 input#search::-webkit-input-placeholder {
+  color: #65737e;
+}
+
+.container-3 input#search:-moz-placeholder {
+  /* Firefox 18- */
+  color: #65737e;
+}
+
+.container-3 input#search::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #65737e;
+}
+
+.container-3 input#search:-ms-input-placeholder {
+  color: #65737e;
+}
+
+.active {
+  color: black !important;
+}
+
+.container-3 .icon {
+  position: absolute;
+  top: 50%;
+  margin-left: 12px;
+  margin-top: 6px;
+  z-index: 1;
+  padding-right: 5px;
+  color: #4f5b66;
+  border-right: 1px #4f5b66 solid;
+  -webkit-transition: all .55s ease;
+  -moz-transition: all .55s ease;
+  -ms-transition: all .55s ease;
+  -o-transition: all .55s ease;
+  transition: all .55s ease;
+}
+
+.container-3 input#search:focus, .container-3 input#search:active {
+  outline: none;
+}
+
+.container-3:hover .icon {
+  color: #93a2ad;
+}
+
+.content {
+  height: 800px;
+}
+.content .left-side-bar {
+  float: left;
+  width: 5%;
+  background-color: #80CC69;
+  height: 800px;
+}
+.content .side-bar-menu {
+  padding: 0 !important;
+  text-align: center;
+}
+.content .side-bar-menu li {
+  list-style-type: none;
+  padding: 15px 0px;
+  cursor: pointer;
+}
+.content .side-bar-menu li:hover {
+  background-color: #def;
+  color: #34373C;
+}
+.content .side-bar-menu li:hover i {
+  color: #86898E;
+}
+.content .side-bar-menu li i {
+  color: #86898E;
+  font-size: 20px;
+}
+.content .right-side-container {
+  width: 95%;
+  float: right;
+}
+.content .right-side-inner {
+  height: 80px;
+  box-shadow: 10px 1px 13px 0px rgba(0, 0, 0, 0.14);
+  border: none;
+  padding: 0 !important;
+}
+.content .right-side-inner h4 {
+  width: 50%;
+  position: relative;
+  left: 100px;
+  top: 30px;
+  font-weight: lighter;
+  color: #86898E;
+}
+.content .right-side-content .statistics {
+  padding: 0;
+}
+.content .right-side-content .statistics p {
+  margin: 0;
+  font-size: 24px;
+}
+.content .right-side-content .statistics span {
+  font-weight: lighter;
+  font-size: 15px;
+}
+.content .right-side-content .statistics .players {
+  border-left: 2px #80CC69 solid;
+}
+.content .right-side-content .statistics .hours {
+  border-left: 2px orange solid;
+}
+.content .right-side-content .statistics .tournaments {
+  border-left: 2px gray solid;
+}
+.content .right-side-content .statistics .fails {
+  border-left: 2px red solid;
+}
+.content .right-side-content .statistics .comments {
+  border-left: 2px green solid;
+}
+.content .right-side-content .statistics .games {
+  border-left: 2px aqua solid;
+}
+.content .right-side-content .statistics li {
+  padding-left: 15px;
+  border-left: 1px;
+  margin-left: 7%;
+  display: inline-block;
+  list-style-type: none;
+}
+.content .right-side-content #chart_div {
+  margin-top: 10px;
+}
+.content .right-side-content #chart_div2 {
+  margin-top: 10px;
+}
+.content .statistics-container-left {
+  margin-top: 1em;
+}
+.content .statistics-container-left h4 {
+  font-weight: 200;
+  margin-left: 15px;
+}
+.content .statistics-container-right {
+  margin-top: 1em;
+}
+.content .statistics-container-right h4 {
+  font-weight: lighter;
+  margin-left: 15px;
+}
+
+.mrg-top h4 {
+  margin-top: 35px;
+  margin-bottom: 30px;
+  margin-left: 15px;
+  font-weight: 200;
+}
+.mrg-top .user-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  float: left;
+  margin-left: 5%;
+}
+.mrg-top .username {
+  float: left;
+  margin: 0;
+  font-weight: lighter;
+  font-size: 13px;
+  margin-left: 3%;
+}
+.mrg-top .user-origin {
+  font-weight: lighter;
+  font-size: 12px;
+  margin-left: 3%;
+}
+
+.circle-chart__circle {
+  animation: circle-chart-fill 2s reverse;
+  /* 1 */
+  transform: rotate(-90deg);
+  /* 2, 3 */
+  transform-origin: center;
+  /* 4 */
+}
+
+.circle-chart__info {
+  animation: circle-chart-appear 2s forwards;
+  opacity: 0;
+  transform: translateY(0.3em);
+}
+
+@keyframes circle-chart-fill {
+  to {
+    stroke-dasharray: 0 100;
+  }
+}
+@keyframes circle-chart-appear {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.grid {
+  text-align: center;
+}
+.grid p {
+  font-weight: lighter;
+  font-size: 14px;
+  color: #86898E;
+}
+
+@media (min-width: 31em) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 1200px) {
+  .navbar .username {
+    font-size: 14px !important;
+  }
+
+  .statistics li {
+    margin-left: 5% !important;
+  }
+  .statistics li p {
+    font-size: 18px !important;
+  }
+  .statistics li span {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .statistics li {
+    margin-left: 6% !important;
+  }
+  .statistics li p {
+    font-size: 16px !important;
+  }
+  .statistics li span {
+    font-size: 12px !important;
+  }
+}
+
+/*# sourceMappingURL=base.css.map */
